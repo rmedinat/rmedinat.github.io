@@ -532,7 +532,7 @@
   <!-- ================= CONFIRMACIÓN ================= -->
   <section class="rev">
     <p class="rotulo">Confirma tu asistencia</p>
-    <p class="texto">Avísanos cuántos vienen antes del <span id="limite">26 de septiembre</span> para apartar su lugar en el bosque.</p>
+    <p class="texto">Avísanos antes del <span id="limite">26 de septiembre</span> para apartar su lugar en el bosque.</p>
     <a class="btn solido" id="btn-whatsapp" href="#" target="_blank" rel="noopener">Confirmar por WhatsApp</a>
   </section>
 
@@ -587,7 +587,7 @@ const DATOS = {
   lugar:         "Terraza del Coto 11, Paseo de los Parques",
   direccion:     "Av. San Blas 2285, Santa Cruz del Valle, Tlaquepaque, Jalisco",
   whatsapp:      "5213315524973",
-  mensajeRSVP:   "¡Hola! Quiero confirmar mi asistencia a la fiesta de Lilian. Vamos _____ personas."
+  mensajeRSVP:   "¡Hola! Quiero confirmar mi asistencia a la fiesta de Lilian."
 };
 
 const $ = s => document.querySelector(s);
